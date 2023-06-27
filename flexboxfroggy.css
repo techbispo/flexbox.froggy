@@ -1,0 +1,201 @@
+/*Desafio 1 Flexbox Froggy usando Justify Content para alinhar à direita*/
+
+#pond {
+    display: flex;
+  justify-content: flex-end;
+  }
+
+  /*Desafio 2 Flexbox Froggy usando Justify Content para alinhar ao centro*/
+
+  #pond {
+    display: flex;
+  justify-content: center;
+  }
+
+  /*Desafio 3 Flexbox Froggy usando Justify Content para alinhar os elementos com distância igual em torno deles*/
+
+  #pond {
+    display: flex;
+  justify-content: space-around;
+  }
+
+  /*Desafio 4 Flexbox Froggy usando Justify Content para alinhar os elementos com distância igual entre eles*/
+
+  #pond {
+    display: flex;
+  justify-content: space-between;
+  }
+
+  /*Desafio 5 Flexbox Froggy usando Align Items para alinhar verticalmente em baixo*/
+ 
+  #pond {
+    display: flex;
+  align-items: flex-end;
+  }
+
+/*Desafio 6 Flexbox Froggy usando Align Items e justify-content para alinhar verticalmente e horizontalmente no centro*/
+  #pond {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  /*Desafio 7 Flexbox Froggy usando Align Items e justify-content com flex-end e space-around*/
+
+  
+  #pond {
+    display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  }
+
+  /*Desafio 8 Flexbox Froggy usando flex-direction para itens posicionados na direção oposta do texto*/
+  
+  #pond {
+    display: flex;
+  flex-direction: row-reverse;
+  }
+
+ /*Desafio 9 Flexbox Froggy usando flex-direction para itens posicionados de cima para baixo*/
+
+   #pond {
+    display: flex;
+  flex-direction: column;
+  }
+
+   /*Desafio 10 Flexbox Froggy usando flex-direction e justify-content reverto a posição dos itens e alinho à esquerda*/
+
+
+  #pond {
+    display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  }
+
+/*Desafio 11 Flexbox Froggy usando flex-direction e justify-content para deixar itens em colunas e levá-los para baixo*/
+  
+#pond {
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  }
+
+/*Desafio 12 Flexbox Froggy usando flex-direction e justify-content para reverter a posição dos itens em colunas e deixar a distância entre eles iguais*/
+  
+  #pond {
+    display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  }
+
+ /*Desafio 13 Flexbox Froggy usando flex-direction, align-items e justify-content para reverter a posição dos itens em linhas, centralizar e levá-los para baixo*/
+
+  #pond {
+    display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  }
+
+  /* Desafio 14 Flexbox Froggy usar função ORDER para reverter a posição de um item individual*/
+  
+  #pond {
+    display: flex;
+  }
+  
+  .yellow {
+  order: 3;
+  }
+
+  /* Desafio 15 Flexbox Froggy usar função ORDER para reverter a posição de um item individual, mas agora usando número inteiro negativo*/
+  
+  #pond {
+    display: flex;
+  }
+  
+  .red {
+  order: -3;
+  }
+
+ /* Desafio 16 Flexbox Froggy usar função ALIGN-SELF FLEX -END para ALTERAR a posição de um item individual*/
+  
+  #pond {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .yellow {
+  align-self: flex-end;
+  }
+
+  /* Desafio 17 Flexbox Froggy usar função ALIGN-SELF FLEX -END e ORDER  para ALTERAR a posição de DOIS itens individuais*/
+ 
+  #pond {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .yellow {
+  order: 1;
+  align-self: flex-end;
+  }
+
+   /* Desafio 18 Flexbox Froggy usar função flex-wrap: wrap para apertar todos os itens em uma só linha;*/
+ 
+  #pond {
+    display: flex;
+  flex-wrap: wrap;
+  }
+
+  /* Desafio 19 Flexbox Froggy usar função flex-wrap: wrap e column no flex-direction para apertar todos os itens em uma só linha e na forma de coluna;*/
+ 
+  #pond {
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  }
+
+  /* Desafio 20 Flexbox Froggy usar função flex-flow: wrap e column para apertar todos os itens em uma só linha e na forma de coluna;*/
+  
+  #pond {
+    display: flex;
+  flex-flow: column wrap;
+  }
+
+  /*Desafio 21 Flexbox Froggy usar função align-content flex-start para definir como uma quantidader maior de linhas devem ser espaçadas umas das outras para cima;*/
+
+  #pond {
+    display: flex;
+    flex-wrap: wrap;
+  align-content: flex-start;
+  }
+
+/*Desafio 22 Flexbox Froggy usar função align-content para definir como uma quantidader maior de linhas devem ser espaçadas para baixo;*/
+
+  #pond {
+    display: flex;
+    flex-wrap: wrap;
+  align-content: flex-end;
+  }
+
+  /*Desafio 23 Flexbox Froggy usar função align-content center para centralizar e flex-direction para reverter coluna;*/
+
+  #pond {
+    display: flex;
+    flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: center;
+  }
+
+   /*Desafio 24 Flexbox Froggy para unir todo conhecimento observado*/
+   /*Reverti posicionamento dos itens em coluna reversa*/
+   /*Alinhei os itens apertados em linha, mas de maneira reversa*/
+   /*Corrigi os espaços entre eles e centralizei*/
+
+  #pond {
+    display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  align-content: space-between;
+  justify-content: center;
+  }
